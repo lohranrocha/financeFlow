@@ -1,54 +1,57 @@
-# React + TypeScript + Vite
+Financial Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Financial Management Application! This web-based tool is designed to help you efficiently track your income, expenses, financial goals, and overall financial health.
 
-Currently, two official plugins are available:
+🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📊 Dashboard
 
-## Expanding the ESLint configuration
+Summary of total balance, income, and expenses
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Interactive pie chart displaying spending by category
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Progress tracking for financial goals
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+💰 Transactions
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Detailed list of all financial transactions
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Search and filter functionality
+
+Categorization for easy tracking
+
+🎯 Goals
+
+Visual progress tracking for financial objectives
+
+Detailed goal information and updates
+
+Option to add and manage new goals
+
+🔍 Insights
+
+Financial health score analysis
+
+AI-powered insights and recommendations
+
+Trend analysis for better financial planning
+
+👤 Profile
+
+Manage personal information
+
+Customize notification preferences
+
+Configure security settings
+
+🛠 Tech Stack
+
+React Router - Navigation
+
+Recharts - Data visualization
+
+Lucide React - Icons
+
+Tailwind CSS - Styling
+
+TypeScript - Type safety
